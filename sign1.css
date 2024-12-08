@@ -1,12 +1,13 @@
 html,
 body {
-  background-color:#acfac8; 
+  /* background-color:#acfac8;  */
+  background-color:#f9f9f9;
   height: 100%;
   font-family: 'Pacifico', cursive;
 }
 
 button {
-  background-color: #257DAC;
+  background-color: #1dadfa;
   color: #fff;
   border: none;
   width: 10em;
@@ -14,10 +15,10 @@ button {
   cursor: pointer;
 }
 
-button:hover{
-  background-color: rgba(249, 30, 78, 0.811);
+ button:hover{ 
+  background-color: #acfac8;
   color: black;
-}
+} 
 
 .form-signin {
   max-width: 330px;
@@ -54,6 +55,6 @@ button:hover{
 
 h1{
   text-align: center;
-  color: #257DAC;
+  color: #1dadfa;
   
 }
